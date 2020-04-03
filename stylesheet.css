@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  max-width:1170px;
+  width:100%;
+  margin:0 auto;
+  padding:0 15px;
+  cursor:default;
+}
+
+.top-wrapper{
+  padding-top: 100px;
+  padding-bottom:100px;
+  color:white;
+  background-image: url("https://jimmyweb.net/wp-content/uploads/2009/09/webdesigner.jpg");
+  background-size:cover;
+  height:auto;
+  text-align: center;
+}
+
+.top-wrapper h1{
+  letter-spacing: 5px;
+  font-size: 55px;
+  margin-bottom:10px;
+  opacity:1;
+}
+
+.top-wrapper p{
+  font-size: 25px;
+  margin-bottom:3px;
+  opacity:1;
+}
+
+.btn{
+  color:white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  background-color:black;
+  padding:15px 40px;
+  box-shadow: 7px 7px gray;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.heading h3{
+  font-weight:normal;
+  font-size: 30px;
+}
+
+.message-wrapper{
+  text-align: center;
+  background-color: floralwhite;
+  padding-top: 10px;
+  padding-bottom:80px;
+}
+
+.heading h2{
+  font-size: 30px;
+}
+
+a{
+  font-size: 25px;
+}
+
+.btn:active{
+  box-shadow: none;
+  position:relative;
+  top:7px;
+  left:7px
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/*for tablets*/
+@media (max-width:1000px){
+  .container{
+    width:100%;
+  }
+
+  .top-wrapper h1{
+    letter-spacing: 3px;
+    font-size: 35px;
+  }
+}
+
+/*for smartphones*/
+@media (max-width:670px){
+  .container{
+     width:100%;
+  }
+
+  .top-wrapper{
+    height:auto;
+    width:100%;
+  }
+
+  .top-wrapper h1{
+    letter-spacing: 3px;
+    font-size: 35px;
+  }
+
+  .heading h2{
+    font-size: 20px;
+  }
+
+  .heading h3{
+    font-size:20px;
+  }
+}
